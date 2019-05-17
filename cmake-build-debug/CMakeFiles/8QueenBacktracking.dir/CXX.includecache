@@ -1,0 +1,20 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/malavassi/Escritorio/8QueenBacktracking/NQBA.h
+stdio.h
+-
+stdio.h
+-
+
+/home/malavassi/Escritorio/8QueenBacktracking/main.cpp
+iostream
+-
+NQBA.h
+/home/malavassi/Escritorio/8QueenBacktracking/NQBA.h
+
